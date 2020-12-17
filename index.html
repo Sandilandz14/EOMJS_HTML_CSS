@@ -13,16 +13,23 @@
     </head>
     <body>
         <!--First Navigation Menu-->
-        <nav class="first_nav">
-            <ul class="sidenav">
-                <li class="as_logo">
-                    <h1>
-                    Home Page
-                    </h1>
-                    <a id="logo-container" class="" href=""></a>
-                </li>
-            </ul>
-        </nav>
+        <div id="sidenav" class="sidenav1">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="project.html">Project</a>
+            <a href="education.html">Education</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+          </div>
+          
+          <!-- Use any element to open the sidenav -->
+          <span onclick="openNav()">open</span>
+          
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+          <div id="main">
+            ...
+          </div> 
         
    
       
