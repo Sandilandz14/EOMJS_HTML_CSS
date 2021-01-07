@@ -1,14 +1,8 @@
 body { font-family: "Lato", sans-serif;
 }
 
-#side-text {
-  text-emphasis-color: black;
-  text-align: left;
-
-}
-
 /*
-This down here is from W3 Schools
+
 */
 body, html {
   height: 100%;
@@ -39,7 +33,6 @@ body, html {
 
 
 /*
-This up here is from W3 Schools
 */
 
 
@@ -82,11 +75,15 @@ background-color: #F0F8FF;
   /*background-image: url("images/zaza.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;*/
-  background-color: rgb(78, 44, 44);
-  color: white
+  background-color: rgb(175, 149, 149);
+  color: rgb(255, 255, 255)
 }
+.next {
+  background-color: #d9e9e8b7;
+  color: white;
+
 #skills{
-  background-color: rgb(146, 214, 191);
+  background-color: rgb(255, 255, 255);
   color: black
 }
 #projects{
@@ -131,21 +128,21 @@ background-color: #F0F8FF;
 
 .container {
   width: 100%;
-  background-color: rgb(146, 214, 191);
+  background-color: rgb(255, 255, 255);
 }
 
 .skillz {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: rgb(26, 6, 6);
+  color: rgb(255, 255, 255);
 }
 
-.myHTML {width: 90%; background-color: #d16c29;}
-.myCSS {width: 80%; background-color: #06690b;}
-.myJS {width: 65%; background-color: #bbbe0a;}
+.myHTML {width: 90%; background-color: #0e0202;}
+.myCSS {width: 80%; background-color: #5f2624;}
+.myJS {width: 65%; background-color: #dd6b6b;}
 .myPy {width: 60%; background-color: #960a0a;}
-.mySQL {width: 50%; background-color: #011c75;}
+.mySQL {width: 50%; background-color: #a07471;}
 
 
 
@@ -153,19 +150,7 @@ background-color: #F0F8FF;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Here are the icons*/
 
 
 
