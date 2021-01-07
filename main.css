@@ -46,7 +46,7 @@ This up here is from W3 Schools
 
 .topnav {
   overflow: hidden;
-  background-color: #000;
+  background-color: rgba(122, 65, 65, 0.945);
 }
 
 .topnav a {
@@ -68,7 +68,7 @@ This up here is from W3 Schools
 }
 
 #home {
-background-image:url("images/sandile.png");
+background-image:url("images/mainBG.png");
 background-repeat: no-repeat;
 background-size: 100vh;
 background-color:white;
@@ -76,6 +76,22 @@ background-color:white;
 
 #about, #projects, #contact{
 background-color: #F0F8FF;
+}
+
+#about{
+  /*background-image: url("images/zaza.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;*/
+  background-color: rgb(78, 44, 44);
+  color: white
+}
+#skills{
+  background-color: rgb(146, 214, 191);
+  color: black
+}
+#projects{
+  background-color: rgb(223, 193, 155);
+  color: rgb(109, 95, 95);
 }
 
 @media screen and (max-width: 600px) {
@@ -102,8 +118,56 @@ background-color: #F0F8FF;
     background-image:url("images/yasarel.png");
     background-repeat: no-repeat;
     background-size: 100vh;
+    float: left;
   }
 }
+
+
+
+/*My Skills Bar*/
+*{
+  box-sizing: border-box
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(146, 214, 191);
+}
+
+.skillz {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(26, 6, 6);
+}
+
+.myHTML {width: 90%; background-color: #d16c29;}
+.myCSS {width: 80%; background-color: #06690b;}
+.myJS {width: 65%; background-color: #bbbe0a;}
+.myPy {width: 60%; background-color: #960a0a;}
+.mySQL {width: 50%; background-color: #011c75;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fa {
   padding: 10px;
