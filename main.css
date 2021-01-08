@@ -78,9 +78,7 @@ background-color: #F0F8FF;
   background-color: rgb(175, 149, 149);
   color: rgb(255, 255, 255)
 }
-.next {
-  background-color: #d9e9e8b7;
-  color: white;
+
 
 #skills{
   background-color: rgb(255, 255, 255);
@@ -91,7 +89,7 @@ background-color: #F0F8FF;
   color: rgb(109, 95, 95);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -99,7 +97,7 @@ background-color: #F0F8FF;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
