@@ -140,7 +140,7 @@ background-color: #F0F8FF;
 
 
 #testimony{
-  background-color: #c5a2a2;
+  background-color: #a3a3a3;
   color: #0e0202;
 }
 
@@ -170,7 +170,7 @@ background-color: #F0F8FF;
 }
 
 .container:hover .image {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .container:hover .middle {
@@ -183,6 +183,36 @@ background-color: #F0F8FF;
   font-size: 16px;
   padding: 16px 32px;
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
 
 
 
@@ -240,10 +270,6 @@ color: white;
   background-color: rgb(129, 75, 75);
   color: #0e0202;
 }
-
-
-
-
 
 
 
