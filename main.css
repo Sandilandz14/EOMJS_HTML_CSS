@@ -117,8 +117,6 @@ background-color: #F0F8FF;
   }
 
 
-
-
 /*My Skills Bar*/
 *{
   box-sizing: border-box
@@ -135,7 +133,6 @@ background-color: #F0F8FF;
   padding-bottom: 10px;
   color: rgb(255, 255, 255);
 }
-
 .myHTML {width: 90%; background-color: #0e0202;}
 .myCSS {width: 80%; background-color: #5f2624;}
 .myJS {width: 65%; background-color: #dd6b6b;}
@@ -143,15 +140,7 @@ background-color: #F0F8FF;
 .mySQL {width: 50%; background-color: #a07471;}
 
 
-
-
-
-
-
 /*Here are the icons*/
-
-
-
 .fa {
   padding: 10px;
   font-size: 20px;
