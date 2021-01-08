@@ -6,3 +6,9 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function scrollTotop() {
+  window.scrollTo(0, 0);
+}
+
+

@@ -95,12 +95,12 @@ body {
   
   a:hover {
     background-color: rgba(231, 231, 231, 0.829);
-    color: rgb(148, 114, 114);
+    color: rgb(10, 10, 10);
   }
   
   .previous {
-    background-color: #f1f1f1;
-    color: black;
+    background-color:  rgba(231, 231, 231, 0.829);;
+    color: rgb(22, 21, 21);
   }
   
  

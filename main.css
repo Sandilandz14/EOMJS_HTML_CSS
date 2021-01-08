@@ -115,8 +115,7 @@ background-color: #F0F8FF;
     background-size: 100vh;
     float: left;
   }
-
-
+}
 /*My Skills Bar*/
 *{
   box-sizing: border-box
@@ -139,6 +138,11 @@ background-color: #F0F8FF;
 .myPy {width: 60%; background-color: #960a0a;}
 .mySQL {width: 50%; background-color: #a07471;}
 
+
+#testimony{
+  background-color: #c5a2a2;
+  color: #0e0202;
+}
 
 /*Here are the icons*/
 .fa {
@@ -182,3 +186,20 @@ color: white;
   background: #007bb5;
   color: white;
 }
+
+#mybtn {
+  background-color: rgb(175, 160, 160);
+  color: white;
+}
+#mybtn:hover {
+  background-color: rgb(129, 75, 75);
+  color: #0e0202;
+}
+
+
+
+
+
+
+
+
