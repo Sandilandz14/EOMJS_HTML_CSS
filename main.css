@@ -76,7 +76,8 @@ background-color: #F0F8FF;
   background-repeat: no-repeat;
   background-size: 100%;*/
   background-color: rgb(175, 149, 149);
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 
@@ -114,6 +115,9 @@ background-color: #F0F8FF;
     background-repeat: no-repeat;
     background-size: 100vh;
     float: left;
+  }
+  .image{
+    width: 100%;
   }
 }
 /*My Skills Bar*/
@@ -166,9 +170,7 @@ background-color: #F0F8FF;
   display: table;
 } 
 
-.image5{
-  align-content: center;
-}
+
 
 
 /*Here are the icons*/
