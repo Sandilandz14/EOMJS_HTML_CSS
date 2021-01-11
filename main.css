@@ -229,6 +229,7 @@ color: white;
 /* CONTACT US FORM */
 * {
   box-sizing: border-box;
+  align-content: center;
 }
 
 /* Style inputs */
@@ -242,15 +243,16 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+  background-color: rgba(122, 65, 65, 0.945);;
+  color: rgb(255, 255, 255);
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color:  white;
+  color: rgba(122, 65, 65, 0.945);;
 }
 
 /* Style the container/contact section */
