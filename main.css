@@ -132,9 +132,10 @@ background-color: #F0F8FF;
 
 .skillz {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   color: rgb(255, 255, 255);
+  padding-right: 10px;
 }
 .myHTML {width: 90%; background-color: #0e0202;}
 .myCSS {width: 80%; background-color: #5f2624;}
@@ -169,8 +170,30 @@ background-color: #F0F8FF;
   clear: both;
   display: table;
 } 
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
 
-
+}
+}
 
 
 /*Here are the icons*/
@@ -265,9 +288,10 @@ input[type=submit]:hover {
 /* Create two columns that float next to eachother */
 .kolumn {
   float: left;
-  width: 50%;
+  width: 65%;
   margin-top: 6px;
   padding: 20px;
+  padding-left: 595px;
 }
 
 /* Clear floats after the columns */
