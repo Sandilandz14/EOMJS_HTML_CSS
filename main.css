@@ -90,6 +90,45 @@ background-color: #F0F8FF;
   color: rgb(109, 95, 95);
 }
 
+#projects{
+
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  padding-left: 15px;
+  padding-top: 100px;
+}
+#project1{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* object-fit: cover; */
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#project2{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  object-fit: cover;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#project3{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
 @media screen and (max-width: 660px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
