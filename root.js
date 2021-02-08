@@ -1,3 +1,4 @@
+// NAvigationBAr function
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -7,6 +8,20 @@ function myFunction() {
   }
 }
 
+// window.onscroll = function() {myNavbar()};
+
+// var navbar = document.getElementById("myTopnav");
+// var sticky = navbar.offsetTop;
+
+// function myNavbar() {
+//   if (window.pageYOffset >= sticky) {
+//     navbar.classList.add("sticky")
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// }
+
+// Back To Top BUtton
 function scrollTotop() {
   window.scrollTo(0, 0);
 }
