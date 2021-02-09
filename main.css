@@ -220,15 +220,16 @@ background-color: #F0F8FF;
     background-size: 100vh;
     float: left;
   }
-  .img{
+  .image{
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     object-position: top;
     box-shadow: 4px 5px 5px black;
   }
 }
+
 .image{
   border-radius: 50%;
   width: 400px;
