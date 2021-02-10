@@ -240,6 +240,10 @@ object-position: top;
 box-shadow: 4px 5px 5px black;
 margin-bottom: 7px;
 }
+/* .rrrow{
+  justify-content: center;
+  flex-direction: row;
+} */
 
 
 /* NEW SKILLS BAR */
@@ -300,7 +304,7 @@ margin-bottom: 7px;
   width: 60%;
 }
 .bar:nth-child(6) span:before{
-  width: 40%;
+  width: 60%;
 }
 abbr{
   color: #f5f5f5;
@@ -342,7 +346,7 @@ abbr{
   margin-top: 30px;
 }
 .bar:nth-child(6) abbr{
-  left: 40%;
+  left: 60%;
   margin-top: 30px;
 }
 
