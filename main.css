@@ -1,11 +1,9 @@
-
-
- * {
+* {
   box-sizing: border-box;
- }
+}
 
- /*Here are the icons*/
- .fa {
+/*Here are the icons*/
+.fa {
   padding: 10px;
   font-size: 20px;
   width: 25px;
@@ -15,13 +13,13 @@
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-github {
-background:black ;
-color: white;
-border-radius: 7px;
+  background: black;
+  color: white;
+  border-radius: 7px;
 }
 
 .fa-codepen {
@@ -31,24 +29,26 @@ border-radius: 7px;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
   border-radius: 10px;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #55acee;
   color: white;
   border-radius: 10px;
 }
 
-body { font-family: "Lato", sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
 
 /*
 
 */
-body, html {
+body,
+html {
   height: 100%;
   width: 100%;
 }
@@ -65,26 +65,35 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100vh;
+
+  margin-top: 50px;
 }
 
 /*To create full page bg*/
 
-body, html {
+body,
+html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
-
-
 /*
 */
-
-
 
 .topnav {
   overflow: hidden;
   background-color: rgba(122, 65, 65, 0.945);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+
+  /* display: flex;
+  justify-content: center; */
 }
+/* #myTopnav{
+  justify-content: center;
+} */
 
 .topnav a {
   float: left;
@@ -105,17 +114,19 @@ body, html {
 }
 
 #home {
-background-image:url("images/mainBG.png");
-background-repeat: no-repeat;
-background-size: 100vh;
-background-color:white;
+  background-image: url("images/mainBG.png");
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-color: white;
 }
 
-#about, #projects, #contact{
-background-color: #F0F8FF;
+#about,
+#projects,
+#contact {
+  background-color: #f0f8ff;
 }
 
-#about{
+#about {
   /*background-image: url("images/zaza.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;*/
@@ -124,18 +135,16 @@ background-color: #F0F8FF;
   text-align: center;
 }
 
-
-#skills{
+#skills {
   background-color: rgb(255, 255, 255);
-  color: black
+  color: black;
 }
-#projects{
+#projects {
   background-color: rgb(223, 193, 155);
   color: rgb(109, 95, 95);
 }
 
-#projects{
-
+#projects {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -146,8 +155,7 @@ background-color: #F0F8FF;
 }
 /* STYLING IMAGES FOR THE PROJECTS */
 
-
-#project1{
+#project1 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -157,7 +165,7 @@ background-color: #F0F8FF;
   padding-right: 15px;
   padding-left: 15px;
 }
-#project2{
+#project2 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -167,7 +175,7 @@ background-color: #F0F8FF;
   padding-right: 10px;
   padding-left: 5px;
 }
-#project3{
+#project3 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -176,7 +184,7 @@ background-color: #F0F8FF;
   padding-left: 5px;
   padding-bottom: 50px;
 }
-#project4{
+#project4 {
   display: flex;
   position: relative;
   flex-direction: row;
@@ -186,13 +194,15 @@ background-color: #F0F8FF;
   padding-bottom: 50px;
 }
 @media screen and (max-width: 660px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
   }
   /* I MUST GET BACK TO THIS ONE BELOW */
-  .img{
+  .img {
     border-radius: 50%;
     width: 400px;
     height: 400px;
@@ -203,7 +213,9 @@ background-color: #F0F8FF;
 }
 
 @media screen and (max-width: 660px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -214,15 +226,15 @@ background-color: #F0F8FF;
     display: block;
     text-align: left;
   }
-  #home{
-    background-image:url("images/sandileAnim2-2.jpg");
+  #home {
+    background-image: url("images/sandileAnim2-2.jpg");
     background-repeat: no-repeat;
     background-size: 100vh;
     float: left;
   }
 }
 
-.image{
+.image {
   border-radius: 50%;
   width: 250px;
   height: 250px;
@@ -231,39 +243,38 @@ background-color: #F0F8FF;
   box-shadow: 4px 5px 5px black;
 }
 
-.imeyji{
+.imeyji {
   border-radius: 50%;
-width: 250px;
-height: 250px;
-object-fit: cover;
-object-position: top;
-box-shadow: 4px 5px 5px black;
-margin-bottom: 7px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 4px 5px 5px black;
+  margin-bottom: 7px;
 }
 /* .rrrow{
   justify-content: center;
   flex-direction: row;
 } */
 
-
 /* NEW SKILLS BAR */
- .wrap{
+.wrap {
   max-width: 60%;
   margin: 150px auto 0;
 }
-.bar{
-  color:rgb(129, 60, 60);
+.bar {
+  color: rgb(129, 60, 60);
   letter-spacing: 1px;
   font-weight: 500;
   font-size: 16px;
   position: relative;
 }
-.bar{
+.bar {
   display: inline-block;
   margin-bottom: 15px;
   width: 100%;
 }
-.bar span{
+.bar span {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -271,9 +282,9 @@ margin-bottom: 7px;
   background: rgb(0, 0, 0);
   border-radius: 60px;
 }
-.bar span:before{
+.bar span:before {
   position: absolute;
-  content: '';
+  content: "";
   top: 6px;
   left: 5px;
   width: 80%;
@@ -283,30 +294,30 @@ margin-bottom: 7px;
   animation: bar 5s ease;
 }
 
-@keyframes bar{
-  from{
+@keyframes bar {
+  from {
     width: 0;
   }
 }
-.bar:nth-child(1) span:before{
+.bar:nth-child(1) span:before {
   width: 85%;
 }
-.bar:nth-child(2) span::before{
+.bar:nth-child(2) span::before {
   width: 75%;
 }
-.bar:nth-child(3) span::before{
+.bar:nth-child(3) span::before {
   width: 70%;
 }
-.bar:nth-child(4) span:before{
-  width:  65%;
+.bar:nth-child(4) span:before {
+  width: 65%;
 }
-.bar:nth-child(5) span:before{
+.bar:nth-child(5) span:before {
   width: 60%;
 }
-.bar:nth-child(6) span:before{
+.bar:nth-child(6) span:before {
   width: 60%;
 }
-abbr{
+abbr {
   color: #f5f5f5;
   width: 50px;
   display: inline-block;
@@ -315,48 +326,71 @@ abbr{
   position: absolute;
   top: 54px;
   z-index: 1;
-  background: linear-gradient(to left, #ff0057,#ffeb3b);
+  background: linear-gradient(to left, #ff0057, #ffeb3b);
   box-shadow: 0 5px 20px #ff0057, 0 5px 20px #ffeb3b;
   animation: count 5s ease;
 }
 
 @keyframes count {
-  from{
+  from {
     left: 0%;
   }
 }
-.bar:nth-child(1) abbr{
+.bar:nth-child(1) abbr {
   left: 85%;
   margin-top: 3px;
 }
-.bar:nth-child(2) abbr{
+.bar:nth-child(2) abbr {
   left: 75%;
   margin-top: 3px;
 }
-.bar:nth-child(3) abbr{
+.bar:nth-child(3) abbr {
   left: 70%;
   margin-top: 3px;
 }
-.bar:nth-child(4) abbr{
+.bar:nth-child(4) abbr {
   left: 65%;
   margin-top: 5px;
 }
-.bar:nth-child(5) abbr{
+.bar:nth-child(5) abbr {
   left: 60%;
   margin-top: 30px;
 }
-.bar:nth-child(6) abbr{
+.bar:nth-child(6) abbr {
   left: 60%;
   margin-top: 30px;
 }
 
 /* MY TESTIMONYALS' SECTION */
 
-  #testimony{
-    background-color:#068D9D;
-    color: #0e0202;
-  }
+#testimony {
+  background-color: #068d9d;
+  color: #0e0202;
+}
 
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 600px) {
   .column {
     float: left;
     width: 20%;
@@ -373,45 +407,22 @@ abbr{
     padding: 0 16px;
   }
 
-  .container::after, .row::after {
+  .container::after,
+  .row::after {
     content: "";
     clear: both;
     display: table;
-  } 
-  @media screen and (max-width: 600px) {
-    .column {
-      float: left;
-      width: 20%;
-      margin-bottom: 16px;
-      padding: 0 8px;
-    }
-    
-    .card {
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      margin: 8px;
-    }
-    
-    .container {
-      padding: 0 16px;
-    }
-    
-    .container::after, .row::after {
-      content: "";
-      clear: both;
-      display: table;
+  }
+}
 
-  }
-  }
-
-  #mybtn{
-    background-color: rgba(122, 65, 65, 0.945);
-    color: white;
-  }
-  #mybtn:hover{
-    background-color: white;
-    color:  rgba(122, 65, 65, 0.945);
-  }
-
+#mybtn {
+  background-color: rgba(122, 65, 65, 0.945);
+  color: white;
+}
+#mybtn:hover {
+  background-color: white;
+  color: rgba(122, 65, 65, 0.945);
+}
 
 /* NEW CSS FORM*/
 
@@ -420,7 +431,9 @@ abbr{
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -429,7 +442,7 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: rgba(122, 65, 65, 0.945);
   color: white;
   padding: 12px 20px;
@@ -437,8 +450,8 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color:white;
+input[type="submit"]:hover {
+  background-color: white;
   color: rgba(122, 65, 65, 0.945);
 }
 
@@ -466,9 +479,9 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .colam, input[type=submit] {
+  .colam,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
 }
-
