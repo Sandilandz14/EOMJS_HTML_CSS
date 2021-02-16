@@ -76,10 +76,6 @@ html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-
-/*
-*/
-
 .topnav {
   overflow: hidden;
   background-color: rgba(122, 65, 65, 0.945);
@@ -87,14 +83,8 @@ html {
   top: 0;
   width: 100vw;
   z-index: 100;
-
-  /* display: flex;
-  justify-content: center; */
+  scroll-behavior: smooth;
 }
-/* #myTopnav{
-  justify-content: center;
-} */
-
 .topnav a {
   float: left;
   display: block;
